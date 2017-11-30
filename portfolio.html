@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+<meta charset="utf-8">
+  <title>Bootstrap Portfolio Layout</title>
+  <script src="https://use.fontawesome.com/6605c86fea.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="bootstrapstyle.css">
+
+</head>
+<body>
+  
+  <!---Nav Bar--> 
+  <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Samuel Mwangi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto p-2">
+      <a class="nav-item nav-link" href="bootstrap.html">Home</a>
+      <a class="nav-item nav-link active" href="portfolio.html">Profile<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+<!--Container with content and sidebar-->
+<div class="container my-5 py-5">
+
+  <!-- Row with Content/pic and Side bar-->
+  <div class="row pt-1">
+
+    <!-- column with Header Profile pic and text-->
+    <div class="col-md-8">
+      <!-- INSERT PORTFOLIO IMAGES HERE -->
+      <div class="row py-3">
+        <div class="col-md-6">
+          <div class=“card”>
+            <img class="card-img-top" src="assets/images/photo.png" alt="Card image cap">
+            <div class=“card-body”>
+            <h5 class=“card-title”>Photography</h5>
+            <p class=“card-text”>Capture the beautiful moments in life</p>
+            <a href=“#” class=“btn btn-primary”>Go somewhere</a>
+            </div>
+          </div>
+        </div> <!-- div md 6 close -->
+
+        <div class="col-md-6">
+          <div class=“card”>
+            <img class="card-img-top" src="assets/images/3dprinting.png" alt="Card image cap">
+            <div class=“card-body”>
+            <h5 class=“card-title”>3Dprinting</h5>
+            <p class=“card-text”>Worked with 3-Printing technology.</p>
+            <a href=“#” class=“btn btn-primary”>Go somewhere</a>
+            </div>
+          </div>
+          
+        </div> <!-- div col md 6 close -->
+
+        <div class="col-md-6">
+          <div class=“card”>
+            <img class="card-img-top" src="assets/images/project.png" alt="Card image cap">
+            <div class=“card-body”>
+            <h5 class=“card-title”>HTML & CSS</h5>
+            <p class=“card-text”>Working with CSS and HTML to build a portfolio.</p>
+            <a href=“#” class=“btn btn-primary”>Go somewhere</a>
+            </div>
+          </div>
+          
+        </div> <!-- div col md 6 close -->
+
+        <div class="col-md-6">
+          <div class=“card”>
+            <img class="card-img-top" src="assets/images/gitpage.png" alt="Card image cap">
+            <div class=“card-body”>
+            <h5 class=“card-title”>Active Projects</h5>
+            <p class=“card-text”>More projects coming soon!!!.</p>
+            <a href=“#” class=“btn btn-primary”>Go somewhere</a>
+            </div>
+          </div>
+          
+        </div> <!-- div col md 6 close -->
+
+
+      </div> <!-- row inside col md 8 -->          
+    </div> <!-- col md 8 Div -->
+
+    <!--column with side bar including linkedin github and stackoverflow-->
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-12 ml-auto">
+          <div class="card" style="width: 20rem;">
+           <ul class="list-group list-group-flush">
+             <li class="list-group-item">Connect with me</li>
+             <li class="list-group-item">
+              <div class="row">
+                
+                <div class="col-4 text-center">
+            <a href="https://github.com/kimonjo67/kimonjo67.github.io" target="_blank">
+              <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+            </a></div>
+              
+            <div class="col-4 text-center">
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            </div>
+              
+            <div class="col-4 text-center">
+            <a href="https://stackoverflow.com" target="_blank">
+              <i class="fa fa-square fa-3x" aria-hidden="true"></i>
+              <i class="fa fa-stack-overflow fa-stack-1x fa-inverse fa-stack-2x"></i>
+            </div>
+
+            </div> <!--row with col git linkedin stack -->
+             </li>
+          </ul>
+          </div> <!--card style DIV -->
+        </div> <!-- col md 12 DIV -->
+      </div> <!-- row div inside col 4 -->
+    </div> <!-- col md 4 DIV-->
+
+  </div> <!--Entire row with photos and side bar links -->
+</div> <!-- container DIV -->
+
+
+  <!--footer section--> 
+<div class="footer">
+<div class="row">
+  <div class="col-md-12">
+    <nav class="navbar fixed-bottom navbar-light bg-light mx-auto">
+      <span class="navbar-text mx-auto">&copy;Copyright 2017 Samuel MWangi.</span>
+    </nav>
+  </div>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>

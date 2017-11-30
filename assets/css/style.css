@@ -1,0 +1,146 @@
+body{
+	width:100%;
+	margin: 0 auto;
+	background-image: url("../images/china.png");
+}
+.floatleft{
+	width: 200px;
+	float: left;
+	margin:20px;
+}
+header{
+	width: 100%;
+    height: 78px;
+    margin: 0 auto;
+    border-bottom: solid #cccccc;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+.nav{
+	width: 960px;
+	margin:0 auto;
+
+}
+
+.outer{
+	width: 960px;
+	margin:100px auto;
+
+}
+h1{
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	float: left;
+	background-color: #4aaaaa;
+	font-family: Georgia,Times, Times New Roman, serif;
+}
+.container{
+	background-color: #ffffff;
+	float:left;
+	width: 630px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.aside{
+	background-color: #ffffff;
+	width: 250px;
+	margin-left:20px;
+	margin-top: 20px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul{
+	list-style-type: none;
+}
+.topright{
+	float:right;
+}
+#about{
+	padding:20px;
+	float: right;
+
+}
+
+#portfolio{
+	padding: 20px;
+	float:right;
+}
+#contact{
+	padding: 20px;
+	float:right;
+}
+h2{
+	clear:both;
+	padding: 30px;
+	border-bottom: solid #cccccc;
+}
+h3{
+	border-bottom: solid #cccccc;
+}
+
+
+.aside img{
+	width: 50px;
+	float:left;
+	padding: 10px;
+}
+p{
+	padding:20px;
+}
+
+.git{
+	width: 40px;
+}
+.link{
+	width: 40px;
+}
+.flow{
+	width: 40px;
+}
+footer{
+	clear: both;
+	background-color: #666666;
+	padding: 30px;
+	width:100%;
+	text-align: center;
+}
+.images{
+	width: 630px;
+}
+
+.imgcontainer{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 10px auto 10px auto;
+	position: relative;
+}
+img{
+	width: 250px;
+}
+
+
+input[type=text]{
+	width:100%;
+	padding:10px 20px;
+	margin:8px 0;
+	box-sizing: border-box;
+}
+textarea{
+	width: 93%;
+	height: 300px;
+	padding: 20px;
+}
+.container img{
+	width: 200px;
+}
+
