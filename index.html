@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+<meta charset="utf-8">
+	<title>Bootstrap Portfolio Layout</title>
+	<link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+	<script src="https://use.fontawesome.com/6605c86fea.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="bootstrapstyle.css">
+
+</head>
+<body>
+	
+	<!---Nav Bar-->	
+	<nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  	<a class="navbar-brand" href="#">Samuel Mwangi</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto p-2">
+      <a class="nav-item nav-link active" href="bootstrap.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="portfolio.html">Profile</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+<!--Container with content and sidebar-->
+<div class="container my-5 py-5">
+
+	<!-- Row with Content/pic and Side bar-->
+	<div class="row pt-1">
+
+		<!-- column with Header Profile pic and text-->
+		<div class="col-md-8">
+
+
+			<!--Row with About me header-->
+			<div class="row">
+				<div class="col-md-12">
+					<h1>About Me</h1>
+				</div>
+			</div>
+			
+		<!-- Row with profile picture and text-->
+			<div class="row">
+
+
+				<!--profile picture-->
+				<div class="col-md-6">
+					<div class="card" style="width: 20rem;">
+					<img class="card-img-top" src="assets/images/profile.jpg" alt="profile pic">
+					</div>
+				</div>
+
+				<!--About me content text-->
+				<div class="col-md-6">
+					<p>
+						My name is Samuel Mwangi, software developer residing in Minneapolis. Am taking a coding boot camp program to learn software development with the hope to use this skill in helping in the development of my native counry. I was born in a small country in the East of Africa and came to the U.S to further my education. I have dreams of using software as a tool to solve solutions that directly and indirectly affect Africans in Africa in either health care, manufacturing or the fintech industry. I can write code in HTML and CSS and learning currently learning Javascript. Please feel free to revisit this site for more websites.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!--column with side bar including linkedin github and stackoverflow-->
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-12 ml-auto">
+					<div class="card" style="width: 20rem;">
+		 			 <ul class="list-group list-group-flush">
+		  			 <li class="list-group-item">Connect with me</li>
+		    		 <li class="list-group-item">
+		    		 	<div class="row">
+		    		 		<div class="col-4 text-center">
+						<a href="https://github.com/kimonjo67/kimonjo67.github.io" target="_blank">
+							<i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+						</a></div>
+							
+						<div class="col-4 text-center">
+						<a href="https://www.linkedin.com" target="_blank">
+							<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+						</div>
+							
+						<div class="col-4 text-center">
+						<a href="https://stackoverflow.com" target="_blank">
+							<i class="fa fa-square fa-3x" aria-hidden="true"></i>
+							<i class="fa fa-stack-overflow fa-stack-1x fa-inverse fa-stack-2x"></i>
+						</div>
+
+						</div>
+		    		 </li>
+		 			</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+	<!--footer section-->	
+<div class="row footer">
+	<div class="col-md-12">
+		<nav class="navbar navbar-light bg-light mx-auto">
+  		<span class="navbar-text mx-auto">&copy;Copyright 2017 Samuel Mwangi.</span>
+		</nav>
+	</div>
+</div>	
+
+
+
+
+
+</body>
+</html>
